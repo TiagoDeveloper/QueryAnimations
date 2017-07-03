@@ -1,0 +1,10 @@
+:host{
+    display: flex;
+    height: 65px;
+    background-color: #009688;
+    color: white;
+    
+}
+p{
+    margin: auto;
+}

@@ -1,0 +1,22 @@
+:host{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+}
+md-card{
+    min-height: calc(100vh - 200px);
+}
+
+h1{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
