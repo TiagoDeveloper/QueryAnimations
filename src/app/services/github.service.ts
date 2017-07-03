@@ -7,8 +7,8 @@ import 'rxjs/add/operator/catch';
 export class GithubService {
 
   private user: string = 'tiagoDeveloper';
-  private client_id: string = 'cfc22c1c8b39f8ef2e23';
-  private client_secret: string = '6de035546dd804fd7e3f2cc4e04165a02c3ddd3f';
+  private client_id: string = 'xxxxxxxxxx';
+  private client_secret: string = 'xxxxxxxxxxxxxxxx';
 
   private url: string = `https://api.github.com/users/${ this.user }?client_id=${ this.client_id }&client_secret=${ this.client_secret }`;
 
